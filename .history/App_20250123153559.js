@@ -24,10 +24,10 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="RestaurantList">
+        <Stack.Screen name="Listado de Restaurantes">
           {(props) => <RestaurantList {...props} restaurants={restaurants} />}
         </Stack.Screen>
-        <Stack.Screen name="RestaurantDetails">
+        <Stack.Screen name="Detalle del Restaurante">
           {(props) => (
             <RestaurantDetails {...props} updateRestaurant={updateRestaurant} />
           )}

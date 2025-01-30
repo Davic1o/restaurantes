@@ -27,7 +27,7 @@ export default function App() {
         <Stack.Screen name="RestaurantList">
           {(props) => <RestaurantList {...props} restaurants={restaurants} />}
         </Stack.Screen>
-        <Stack.Screen name="RestaurantDetails">
+        <Stack.Screen name="Detalle del Restaurante">
           {(props) => (
             <RestaurantDetails {...props} updateRestaurant={updateRestaurant} />
           )}
